@@ -1,0 +1,69 @@
+.btn-1 {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #d19f9b;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: all 0.2s;
+    margin-top: 15px;
+
+    @media only screen and (max-width: $extra-small-devices-breakpoint) {
+      margin-top: 25px;
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: $small-devices-breakpoint) {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba($color-black, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+}
+
+.btn {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #d19f9b;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: all 0.2s;
+    margin-top: 60px;
+
+    @media only screen and (max-width: $extra-small-devices-breakpoint) {
+      margin-top: 90px;
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: $small-devices-breakpoint) {
+      margin-top: 65px;
+      font-size: 14px;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba($color-black, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+}
